@@ -14,9 +14,7 @@ public class Arithmetic{
     double shirtsCost$=3.58; //displays the cost of each shirt
     int nSocks=2;  //this displays the total pair of socks I will be buying
     double socksCost$=4.64; //displays the cost of each pair of socks
-    char item1=Shorts;
-    char item2=Shirts;
-    char item3=Socks;
+   
     
   //These are constant variables and/or used for storing purposes)
     double taxPercent=0.06;
@@ -26,10 +24,13 @@ public class Arithmetic{
         // above recognize that the values of each will have multiple digits
  
     System.out.println("I am going to buy: ");
-    System.out.println(nShorts+"pairs of"+item1+"costing"+shortsCost$+"each"); 
-    System.out.println(nShirts+"pairs of"+item2+"costing"+shirtsCost$+"each");
+    System.out.println(nShorts+" "+"pairs of shorts costing"+" "+shortsCost$+" "+
+    "each"); 
+    System.out.println(nShirts+" "+"pairs of shirts costing"+" "+shirtsCost$+" "+
+    "each");
     System.out.println("And");
-    System.out.println(nSocks+"pairs of"+item3+"costing"+socksCost$+"each"+".");
+    System.out.println(nSocks+" "+"pairs of socks costing"+" "+socksCost$+" "+
+    "each"+".");
 
            
   //Running the calculations and storing the values
@@ -49,24 +50,25 @@ public class Arithmetic{
       // Above gives the cost and the sale tax of the socks 
 
     System.out.println("Based on calculations: ");
-    System.out.println("The"+item1+"will cost"+totalShortsCost$+
-    "without tax and the sales tax for it will be"+salesTaxShorts);
-    System.out.println("The"+item2+"will cost"+totalShirtsCost$+
-    "without tax and the sales tax for it will be"+salesTaxShirts);
+    System.out.println("The shorts will cost"+" "+totalShortsCost$+" "+
+    "without tax and the sales tax for it will be"+" "+salesTaxShorts);
+    System.out.println("The shirts will cost"+" "+totalShirtsCost$+" "+
+    "without tax and the sales tax for it will be"+" "+salesTaxShirts);
     System.out.println("And");
-    System.out.println("The"+item3+"will cost"+totalSocksCost$+
-    "without tax and the sales tax for it will be"+salesTaxSocks+".");
+    System.out.println("The socks will cost "+" "+totalSocksCost$+" "+
+    "without tax and the sales tax for it will be"+" "+salesTaxSocks+".");
 
         
     PretotalCost$=totalShortsCost$+totalShirtsCost$+totalSocksCost$; // total before tax
     salesTaxTotal=PretotalCost$*taxPercent; // the tax of the whole total
     TotalCost$=PretotalCost$+salesTaxTotal;
+
     System.out.println("Based on more calculations: ");
     System.out.println("The total before the tax will be "+PretotalCost$);
     System.out.println("And");
     System.out.println("The sales tax of that total will be "+salesTaxTotal);
-    System.out.println("Therefore");
-    System.out.println("The total cost will be "+TotalCost$+".");
+    System.out.println("Therefore,");
+    System.out.println("The grand total cost will be "+TotalCost$+".");
   
       
   } // end of method
