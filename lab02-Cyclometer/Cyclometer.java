@@ -18,7 +18,8 @@ public class Cyclometer{
          feetPerMile=5280,  //recongize how many feet are in 1 mile
          inchesPerFoot=12,   //recongize how many inches in 1 foot
          secondsPerMinute=60;  //recognize how many sec in 1 min
-    double distanceTrip1, distanceTrip2,totalDistance; // recognize that the values of each will multiple digits
+    double distanceTrip1, distanceTrip2,totalDistance; 
+        // above recognize that the values of each will have multiple digits
  
     System.out.println("Trip 1 took "+
            (secsTrip1/secondsPerMinute)+" minutes and had "+
