@@ -12,9 +12,9 @@ public class Cyclometer{
     int countsTrip1=1561;  //displays the rotation of trip1
     int countsTrip2=9037; //displays the rotation of trip2
     
-  //These are constant variables (also for storing pruposes)
+  //These are constant variables (also for storing purposes)
     double wheelDiameter=27.0, //the wheel diameter has to be accounted for in the countsTrips
-      PI=3.14159, // the
+      PI=3.14159, //
          feetPerMile=5280,  //recongize how many feet are in 1 mile
          inchesPerFoot=12,   //recongize how many inches in 1 foot
          secondsPerMinute=60;  //recognize how many sec in 1 min
