@@ -40,9 +40,9 @@ public class Check{
 
     dollars=(int)costPerPerson;
     
-    //get dimes amount, e.g., 
+    //get dimes and pennies amount, e.g., 
 
-    //  where the % (mod) operator returns the remainder
+    //  the % (mod) operator returns the remainder
 
     
     dimes=(int)(costPerPerson * 10) % 10;
