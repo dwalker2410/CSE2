@@ -34,19 +34,5 @@ public class Block{
       System.out.println("The surface area of the block is " + blockSurArea);
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-     
-      
-      
   }     
 }

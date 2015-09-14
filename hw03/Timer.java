@@ -45,14 +45,5 @@ public class Timer{
       System.out.println("You have " + newHour + " hour " + newMinute + " minutes until dinner ");
       
       
-      
-      
-      
-      
-      
-      
-      
-     
-      
   }     
 }
