@@ -1,6 +1,6 @@
 // Donterrius Walker
 // September 11, 2015
-// CSE02 - Cyclometer
+// CSE02 - Check
 
 
     import java.util.Scanner;
