@@ -154,22 +154,6 @@ public class CardGenerator{
  System.out.println("You picked the " + typeIdentity + " of " + typeSuit);
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-      
+
   }
 }
