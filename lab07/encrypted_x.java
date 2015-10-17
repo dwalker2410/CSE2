@@ -1,5 +1,5 @@
 // Donterrius Walker
-// October 13, 2015
+// October 9, 2015
 // CSE02 - Encrypted X
 
 import java.util.Scanner;
