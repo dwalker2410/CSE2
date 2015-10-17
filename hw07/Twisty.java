@@ -8,7 +8,7 @@
 public class Twisty{
     // main method is required for every java program
   public static void main(String [] args){
-      Scanner theScanner = new Scanner(System.in);
+      Scanner theScanner = new Scanner(System.in); //declaring a scanner
       
       System.out.print("Input your desired length: "); //able to type something in for length
       
