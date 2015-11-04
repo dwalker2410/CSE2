@@ -76,6 +76,7 @@ public class Twisty{
        // goes to the next line
        System.out.println();  
       }
+      int x=3, b=5;
   } 
 }
 // end of the program
