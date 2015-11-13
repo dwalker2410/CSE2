@@ -1,6 +1,6 @@
 //Donterrius Walker
 //October 30, 2015
-//lab 11 - Arrays
+//lab 10 - Arrays
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Arrays{
   public static void main(String [] args){
       Scanner stuScanner = new Scanner(System.in); //declaring a scanner
     
-      int d = (int) (Math.random()*(10-5)+5);
+      int d = (int) (Math.random()*(10-5)+5); // having a range in between 5-10
       
       System.out.println("May you please enter " + d + " names:");
       
