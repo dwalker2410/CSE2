@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class CSE2Linear {
-  public static void main(String[] arguments) {
+  public static void main(String[] args) {
 	int[] gradeArray = new int[15]; //arrays spaces start from 0-14
 	
 	for(int k=0; k<gradeArray.length; k++){
